@@ -3,20 +3,14 @@
 TennisScore es una aplicacion para **anotar puntos de un partido de tenis** en un reloj/pulsera con Zepp OS.
 
 La app incluye:
-- Marcador para dos jugadores/lados (`Jugador A` y `Jugador B`)
-- Boton `+ A` para sumar puntos al lado A
-- Boton `+ B` para sumar puntos al lado B
+- Marcador para dos jugadores/lados (`Nosotros (N)` y `Ellos (E)`)
+- Boton `+ N` para sumar puntos a Nosotros (Se puede dejar apretado mas de un segundo para restar el ultimo tanto)
+- Boton `+ E` para sumar puntos a Ellos (Se puede dejar apretado mas de un segundo para restar el ultimo tanto)
 - Boton `Reiniciar` para volver a cero
 - Logica de puntuacion de tenis por game: `0`, `15`, `30`, `40`, `AD` (ventaja)
 
 ## Dispositivos objetivo
-
-Esta app esta configurada en `app.json` para los siguientes targets:
-
 - `194x368-amazfit-band-7` (Amazfit Band 7)
-- `390x450-amazfit-gts-3` (familia GTS 3 definida en el template)
-
-Aunque el foco de este proyecto es **Amazfit Band 7**, tambien existe el target GTS 3 en la configuracion actual.
 
 ## Requisitos
 
