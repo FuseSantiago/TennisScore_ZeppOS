@@ -1,0 +1,56 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1113340,
+    "appName": "Tennis Score",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.2"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Anotador de puntos de Tenis"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "194x368-amazfit-band-7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Bari(国际标准版本)",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 194
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Tennis Score"
+    },
+    "es-AR": {
+      "appName": "Tennis Score"
+    }
+  },
+  "defaultLanguage": "es-AR"
+}
